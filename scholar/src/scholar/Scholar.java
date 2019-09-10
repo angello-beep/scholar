@@ -23,10 +23,24 @@ public class Scholar {
         //System.out.println("el empleado se llama" + empleado1.nombre + empleado1.apellido);
         empleado1.printname();
         Estudiante estudiante1= new Estudiante();
+
         
-        estudiante1.nombre= "angello";
-        estudiante1.apellido= "maury";
-        //System.out.println("el estudiante se llama" + estudiante1.nombre);
+       estudiante1.nombre= "angello";
+       estudiante1.fecha_nacimiento= "1998-12-06";
+        System.out.println("la fecha de nacimiento es" + estudiante1.fecha_nacimiento);
+      empleado1.printfecha();
+      
+       //System.out.println("la edad es: " + this.calcEdad() );
+       estudiante1.printedad();
+          
+        
+       
+        
+       
+      
+         
+        
+ 
         
         
         
